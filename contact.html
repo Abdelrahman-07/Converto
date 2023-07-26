@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page title -->
+    <title>Unit Converter - Contact Us</title>
+    <!-- link to the css page to apply appropriate style  -->
+    <link rel="stylesheet" href="converter_style.css" />
+  </head>
+  <body>
+    <!-- small logo in the top left corner that redirects to the home page when clicked -->
+    <a href="Home.html"
+      ><img src="low_res_logo.png" alt="The website's logo" class="small_logo"
+    /></a>
+    <!-- Main header of the page -->
+    <h1>Thank You For Using Converto!</h1>
+    <!-- button that redirects to the registeration page -->
+    <button class="reg_button" id="register">register</button>
+
+    <!-- big logo that redirects to the main page when clicked -->
+    <p>
+      <a href="Home.html">
+        <img src="logo.png" class="med_logo" alt="The website's logo" />
+      </a>
+    </p>
+    <!-- stating the email if the user wants to cantact us manually -->
+    <p class="p_convert">
+      You can contact us by emailing:
+      <a href="mailto:info@contacto.gmail.com" >info@contacto.gmail.com </a> by clicking the link, or you can
+      use the form below to send an email.
+    </p>
+    <!-- form to accept user information and the content of the email-->
+    <form onsubmit="event.preventDefault();">
+    <!-- Field to enter first name -->
+    <p class="p_convert">First name:</p>
+    <input type="text" id="fname" class="value_display" placeholder="Enter your first name"/>
+    <!-- Field to enter name-->
+    <p class="p_convert">Last name:</p>
+    <input type="text" id="lname" class="value_display" placeholder="Enter your last name" />
+    <!-- Field to enter email -->
+    <p class="p_convert">Email:</p>
+    <input type="email" id="email" class="value_display" placeholder="Enter your email"/>
+    <!-- Field to enter phone number-->
+    <p class="p_convert">Phone Number:</p>
+    <input type="number" id="phone" class="value_display" placeholder="Enter your phone number" />
+    <!-- Field to type out the email-->
+    <p class="p_convert">How may we help you?</p>
+    <textarea id="help" class="help"></textarea>
+    <p>
+      <!-- submit the email -->
+      <button class="convert_buttons" id="send_email">Send Email</button>
+    </p></form>
+    <!-- script to run the necessary java script functions -->
+    <script src="contact_us.js"></script>
+    <!-- what will be displayed if the browser does not support javascript -->
+    <noscript>
+      Your browser does not support HTML. Please open another browser and try
+      again!</noscript>
+  </body>
+</html>

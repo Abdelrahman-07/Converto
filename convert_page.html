@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page title -->
+    <title>Abdelrahman Alashkar - Unit Converter</title>
+    <!-- link to the css page to apply appropriate style  -->
+    <link rel="stylesheet" href="converter_style.css" />
+  </head>
+
+  <body>
+    <!-- small logo in the top left corner that redirects to the home page when clicked -->
+    <a href="Home.html"
+      ><img src="low_res_logo.png" alt="The website's logo" class="small_logo"
+    /></a>
+    <!-- Main header of the page -->
+    <h1>Data Units Conversion</h1>
+    <!-- button that redirects to the registeration page -->
+    <button class="reg_button" id="register">register</button>
+    <!-- first selection part for the starting unit -->
+    <p class="p_convert">From:</p>
+
+    <select id="unit1" class="container">
+      <option value="bits" id="bits_1">bits</option>
+      <option value="Bytes" id="Bytes_1">Bytes</option>
+      <option value="KiloBytes" id="KiloBytes_1">KiloBytes</option>
+      <option value="MegaBytes" id="MegaBytes_1">MegaBytes</option>
+      <option value="GigaBytes" id="GigaBytes_1">GigaBytes</option>
+      <option value="TeraBytes" id="TeraBytes_1">TeraBytes</option>
+      <option value="PetaBytes" id="PetaBytes_1">PetaBytes</option>
+      <option value="ExaBytes" id="ExaBytes_1">ExaBytes</option>
+    </select>
+    <!-- field to input the desired amount of the selected units -->
+    <input type="number" id="input" class="value_display" />
+
+    <!-- second selection part for the result unit -->
+    <p class="p_convert">To:</p>
+    <select id="unit2" class="container">
+      <option value="bits" id="bits_2">bits</option>
+      <option value="Bytes" id="Bytes_2">Bytes</option>
+      <option value="KiloBytes" id="KiloBytes_2">KiloBytes</option>
+      <option value="MegaBytes" id="MegaBytes_2">MegaBytes</option>
+      <option value="GigaBytes" id="GigaBytes_2">GigaBytes</option>
+      <option value="TeraBytes" id="TeraBytes_2">TeraBytes</option>
+      <option value="PetaBytes" id="PetaBytes_2">PetaBytes</option>
+      <option value="ExaBytes" id="ExaBytes_2">ExaBytes</option>
+    </select>
+    <!-- field to output the desired amount of the selected units -->
+    <input type="number" id="result" class="value_display" />
+    <!-- button to convert the units -->
+    <button id="convert_units" class="convert_buttons">convert</button>
+    <script src="converter_JS.js"></script>
+  </body>
+  
+</html>

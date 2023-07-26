@@ -1,0 +1,202 @@
+/* style for the small website logo*/
+.small_logo {
+  height: 74px;
+  width: 126px;
+  border-radius: 20%;
+  padding: 5px;
+}
+/* style for when we hover on small website logo*/
+.small_logo:hover {
+  box-shadow: 0 0 2px 2px royalblue;
+  cursor: pointer;
+}
+/* style for the headers*/
+h1 {
+  text-align: center;
+  position: relative;
+  top: -80px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* style for the registration button in all pages except the registration page*/
+.reg_button {
+  background-color: red;
+  position: relative;
+  color: #fff;
+  width: 160px;
+  height: 50px;
+  font-size: 25px;
+  border: 3px black;
+  display: block;
+  margin-left: auto;
+  margin-right: 5px;
+  top: -170px;
+}
+.reg_button:hover {
+  box-shadow: 0 0 2px 2px royalblue;
+  cursor: pointer;
+}
+/* style for the big website logo*/
+.big_logo {
+  height: 400px;
+  width: 700px;
+  border-radius: 20%;
+  padding: 5px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: -80px;
+}
+/* style for when we hover on the main website logo*/
+.big_logo:hover {
+  box-shadow: 0 0 2px 2px royalblue;
+  cursor: pointer;
+}
+/* style for the main buttons in the home page*/
+.home_buttons {
+  background-color: blueviolet;
+  color: #fff;
+  position: relative;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  justify-content: center;
+}
+.home_buttons:hover {
+  box-shadow: 0 0 2px 2px royalblue;
+  cursor: pointer;
+}
+/* style for the table header*/
+.table_header {
+  background-color: red;
+  color: #fff;
+}
+/* style for the table cells*/
+td {
+  width: 20%;
+  height: 90px;
+  border-color: black;
+}
+td:hover {
+  background-color: #0041f373;
+}
+/* alternating between cell background*/
+tr:nth-child(even) {
+  background-color: #cccccf;
+}
+/* style to center the table*/
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+/* style for the selection parts*/
+.container {
+  font-size: 25px;
+  width: 170px;
+  height: 50px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+/* style for the convert button*/
+.convert_buttons {
+  background-color: blueviolet;
+  color: #fff;
+
+  font-size: 30px;
+  padding: 3px;
+  display: block;
+  margin-right: auto;
+  margin-left: 2%;
+  margin-top: 3%;
+  justify-content: center;
+}
+.convert_buttons:hover {
+  box-shadow: 0 0 2px 2px royalblue;
+  cursor: pointer;
+  /* style for the input fields*/
+}
+.value_display {
+  font-size: 30px;
+  width: 600px;
+  height: 50px;
+  margin-left: 1%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+/* style for the labels of the input fields*/
+.p_convert {
+  font-size: 30px;
+  margin-left: 1%;
+  display: inline-block;
+}
+/* style for the medium website logo*/
+.med_logo {
+  height: 300px;
+  width: 500px;
+  border-radius: 20%;
+  padding: 5px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: -80px;
+}
+.med_logo:hover {
+  box-shadow: 0 0 2px 2px royalblue;
+  cursor: pointer;
+}
+/* style for the message field*/
+.help {
+  font-size: 30px;
+  width: 900px;
+  height: 500px;
+  margin-left: 1%;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0.4em;
+  padding-right: 0.4em;
+}
+/* style for the register and log in buttons in the registeration page*/
+.register {
+    background-color: red;
+    position: relative;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    font-size: 25px;
+    border: 3px black;
+    margin-right: auto;
+    margin-left: 1%;
+
+  }
+  .register:hover {
+    box-shadow: 0 0 2px 2px royalblue;
+    cursor: pointer;
+  }
+  /* style for the secondary headers in the registration page*/
+  .reg_header
+  {
+  font-size: 35px;
+  position: relative;
+  left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  /* style for the last name and password labels in the registration*/
+  .reg_label
+  {
+  font-size: 30px;
+  position: relative;
+  left: 700px;
+  margin-right: auto;
+  display: inline-block;
+  top: -35px;
+  
+    
+  }

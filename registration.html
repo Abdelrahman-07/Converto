@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page title -->
+    <title>Unit Converter - Registration Page</title>
+    <!-- link to the css page to apply appropriate style -->
+    <link rel="stylesheet" href="converter_style.css" />
+  </head>
+  <body>
+    <!-- small logo in the top left corner that redirects to the home page when clicked -->
+    <a href="Home.html"
+    ><img src="low_res_logo.png" alt="The website's logo" class="small_logo"
+  /></a>
+  <!-- Main header of the page -->
+  <h1>Welcome to the registration page</h1>
+  
+    <h2 class="reg_header">
+      Join us today:
+    </h2>
+    <!-- sign up  form-->
+    <form id ="reg_form" action="http://localhost:3000/Units_Converter/signup.php" method="post" onsubmit="event.preventDefault();">
+      <!-- first and  last name labels-->
+      <div>
+        <label for="fname" class="p_convert">First name:</label></div>
+  
+        <div><label for="lname" class="reg_label">Last name:</label></div>
+    <!-- first and  last name input fields-->  
+    <input type="text" id="fname" name="firstname" class="value_display" placeholder="Enter your first name"/>
+    <input type="text" id="lname" name="lastname" class="value_display" placeholder="Enter your last name" />
+  
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <!-- email and password labels-->
+    <div>
+      <label for="email" class="p_convert">Email:</label> </div>
+      <div><label for="password" class="reg_label">Password:</label></div>
+    <!-- email and password input field-->  
+    <input type="email" id="email" name="email" class="value_display" placeholder="Enter your email"/>
+    <input type="password" id="password" name="password" class="value_display" placeholder="Enter your password"/>
+    <!-- button too submit registration information -->
+    <button class="register" id="register" name="register_btn">Register</button>
+    </form>
+    <br/>
+    <br/>
+      <h2 class="reg_header">
+        A returning user?
+      </h2>
+
+
+      <!-- login  form-->
+      <form id="log_form" action="http://localhost:3000/Units_Converter/login.php" method="post" onsubmit="event.preventDefault();">
+        <!-- email and password labels-->
+      <div>
+        <label for="email_lgn" class="p_convert">Email:</label> </div>
+        <div>
+          <label for="password_lgn" class="reg_label">Password:</label></div>
+        <!-- email and password input field-->
+      <input type="email" id="email_lgn" name="email_lgn" class="value_display" placeholder="Enter your email"/>
+      <input type="password" id="password_lgn" name="password_lgn" class="value_display" placeholder="Enter your password" />
+      <!-- button too submit login information -->
+      <button class="register" id="login" name="login_btn">Log in</button>
+    </form>
+    <!-- script to run the necessary java script functions -->
+    <script src="register.js"></script>
+    <!-- what will be displayed if the browser does not support javascript -->
+    <noscript>Your browser does not support javascript</noscript>
+  </body>
+</html>

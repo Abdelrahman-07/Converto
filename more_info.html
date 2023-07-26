@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page title -->
+    <title>Unit Converter - Data Units Info</title>
+    <!-- link to the css page to apply appropriate style  -->
+    <link rel="stylesheet" href="converter_style.css" />
+  </head>
+  <body>
+    <!-- small logo in the top left corner that redirects to the home page when clicked -->
+    <a href="Home.html">
+      <img src="low_res_logo.png" alt="The website's logo" class="small_logo" />
+    </a>
+    <!-- Main header of the page -->
+    <h1>Data Units Conversion Table</h1>
+    <!-- button that redirects to the registeration page -->
+    <button class="reg_button" id="register">register</button>
+    <!-- table that displays the different units -->
+    <table class="center">
+      <!-- first row -->
+      <tr class="table_header">
+        <td>Units</td>
+        <td>Description</td>
+      </tr>
+      <!-- second row -->
+      <tr>
+        <td>bit</td>
+        <td>Either one or zero</td>
+      </tr>
+      <!-- third row -->
+      <tr>
+        <td>Byte</td>
+        <td>8 bits</td>
+      </tr>
+      <!-- fourth row -->
+      <tr>
+        <td>KiloByte</td>
+        <td>1024 Bytes</td>
+      </tr>
+      <!-- fifth row -->
+      <tr>
+        <td>MegaByte</td>
+        <td>1024 KiloBytes</td>
+      </tr>
+      <!-- sixth row -->
+      <tr>
+        <td>GigaByte</td>
+        <td>1024 MegaBytes</td>
+      </tr>
+      <!-- seventh row -->
+      <tr>
+        <td>TeraByte</td>
+        <td>1024 GigaBytes</td>
+      </tr>
+      <!-- eightth row -->
+      <tr>
+        <td>PetaByte</td>
+        <td>1024 TeraBytes</td>
+      </tr>
+      <!-- nineth row -->
+      <tr>
+        <td>ExaByte</td>
+        <td>1024 PetaBytes</td>
+      </tr>
+    </table>
+    <!-- necessary javascript functions-->
+    <script>
+      // function to redirect to the registration page when the corresponding button is clicked
+      document.getElementById("register").onclick = function () {
+        location.href = "registration.html";
+      }
+    </script>
+    <!-- no script tag to specify what happens when the browser does not support javascript -->
+    <noscript
+      >Your browser does not support HTML. Please open another browser and try
+      again!</noscript
+    >
+  </body>
+</html>
